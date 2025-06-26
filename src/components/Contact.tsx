@@ -7,15 +7,15 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-gray-900 text-white">
+    <section className="py-20 bg-gradient-to-br from-purple-900 via-violet-900 to-purple-800 text-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            ¿Listo para Comenzar?
+            ¿Listo para Relajarte?
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Conversemos sobre tu proyecto y descubre cómo podemos ayudarte a 
-            alcanzar tus objetivos digitales.
+          <p className="text-xl text-purple-100 max-w-3xl mx-auto">
+            Reserva tu cita y déjanos cuidar de tu bienestar. Estamos aquí para 
+            brindarte la experiencia de spa que mereces.
           </p>
         </div>
         
@@ -25,32 +25,32 @@ const Contact = () => {
               <h3 className="text-2xl font-bold mb-6">Información de Contacto</h3>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
                     <Mail className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-blue-100">contacto@tuweb.com</p>
+                    <p className="text-purple-100">info@pekaspa.com</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="font-semibold">Teléfono</h4>
-                    <p className="text-blue-100">+1 (555) 123-4567</p>
+                    <p className="text-purple-100">+1 (555) SPA-PEKA</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="font-semibold">Dirección</h4>
-                    <p className="text-blue-100">123 Calle Principal, Ciudad, País</p>
+                    <p className="text-purple-100">456 Wellness Ave, Zona Relax, Ciudad</p>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ const Contact = () => {
           
           <Card className="bg-white/10 backdrop-blur-lg border-white/20 shadow-2xl">
             <CardHeader>
-              <CardTitle className="text-white text-2xl">Envíanos un Mensaje</CardTitle>
+              <CardTitle className="text-white text-2xl">Reserva tu Cita</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -68,22 +68,23 @@ const Contact = () => {
                   className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
                 />
                 <Input 
-                  placeholder="Email" 
-                  type="email"
+                  placeholder="Teléfono" 
+                  type="tel"
                   className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
                 />
               </div>
               <Input 
-                placeholder="Asunto" 
+                placeholder="Email" 
+                type="email"
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
               />
               <Textarea 
-                placeholder="Tu mensaje..." 
+                placeholder="Cuéntanos qué servicio te interesa..." 
                 rows={4}
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400 resize-none"
               />
-              <Button className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
-                Enviar Mensaje
+              <Button className="w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
+                Enviar Solicitud
                 <Send className="ml-2 w-4 h-4" />
               </Button>
             </CardContent>

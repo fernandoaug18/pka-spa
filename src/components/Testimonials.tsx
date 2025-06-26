@@ -6,37 +6,37 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "María González",
-      role: "CEO, TechStart",
-      content: "El equipo superó todas nuestras expectativas. Nuestro sitio web no solo es hermoso, sino que también ha aumentado nuestras conversiones en un 300%.",
+      role: "Cliente Regular",
+      content: "Peka SPA es mi refugio personal. Los masajes relajantes y la atención personalizada me han ayudado a encontrar el equilibrio perfecto entre trabajo y bienestar.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Carlos Rodríguez",
-      role: "Fundador, InnovateLab",
-      content: "Profesionalismo excepcional y resultados increíbles. La colaboración fue fluida y el resultado final superó nuestros sueños más ambiciosos.",
+      role: "Ejecutivo",
+      content: "Después de sesiones estresantes de trabajo, vengo aquí a recargar energías. El ambiente tranquilo y los tratamientos faciales son excepcionales.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Ana Martínez",
-      role: "Directora Marketing, GrowthCo",
-      content: "La atención al detalle y la capacidad de traducir nuestra visión en realidad fue impresionante. ¡Altamente recomendado!",
+      role: "Madre de Familia",
+      content: "Mi día de spa mensual en Peka es sagrado. Los tratamientos corporales y la aromaterapia me devuelven la vitalidad que necesito.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
     }
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section className="py-20 bg-gradient-to-br from-purple-50 to-violet-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-            Lo Que Dicen Nuestros Clientes
+            Experiencias de Nuestros Clientes
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            La satisfacción de nuestros clientes es nuestra mayor recompensa. 
-            Descubre por qué confían en nosotros para sus proyectos más importantes.
+            La satisfacción y bienestar de nuestros clientes es nuestra mayor recompensa. 
+            Descubre por qué eligen Peka SPA para su cuidado personal.
           </p>
         </div>
         
