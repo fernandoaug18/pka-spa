@@ -20,44 +20,44 @@ const Contact = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+          <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden w-72">
               <img 
                 src="/lovable-uploads/c89f4816-70d8-4d1b-b028-92997608a4f4.png" 
                 alt="Instalaciones de almacenamiento"
-                className="w-full h-64 object-cover"
+                className="w-full h-48 object-cover"
               />
             </div>
             
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden w-72">
               <img 
                 src="/lovable-uploads/cde71f30-4ad4-4a3a-be7c-65f3fc8056a0.png" 
                 alt="Transporte y distribución"
-                className="w-full h-64 object-cover"
+                className="w-full h-48 object-cover"
               />
             </div>
             
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden w-72">
               <img 
                 src="/lovable-uploads/30826237-be79-41a1-8d85-b00a3f890a4f.png" 
                 alt="Centro de distribución"
-                className="w-full h-64 object-cover"
+                className="w-full h-48 object-cover"
               />
             </div>
             
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden w-72">
               <img 
                 src="/lovable-uploads/2b282895-8898-4216-a16f-7e1780330623.png" 
                 alt="Productos almacenados"
-                className="w-full h-64 object-cover"
+                className="w-full h-48 object-cover"
               />
             </div>
             
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden w-72">
               <img 
                 src="/lovable-uploads/012fc599-db1e-494d-a078-50cbf13731e9.png" 
                 alt="Empaque y preparación"
-                className="w-full h-64 object-cover"
+                className="w-full h-48 object-cover"
               />
             </div>
           </div>
