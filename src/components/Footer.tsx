@@ -1,5 +1,6 @@
 
 import { Heart, Package, Instagram, Facebook, Twitter } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -40,7 +41,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Información</h4>
             <ul className="space-y-2 text-gray-300">
               <li><a href="#" className="hover:text-white transition-colors duration-300">Quiénes Somos</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Misión y Visión</a></li>
+              <li><Link to="/mision-vision" className="hover:text-white transition-colors duration-300">Misión y Visión</Link></li>
               <li><a href="#" className="hover:text-white transition-colors duration-300">Licitaciones</a></li>
               <li><a href="#" className="hover:text-white transition-colors duration-300">Términos y Condiciones</a></li>
               <li><a href="#" className="hover:text-white transition-colors duration-300">Contacto</a></li>
