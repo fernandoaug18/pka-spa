@@ -6,6 +6,18 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Contact = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const nombre = formData.get('nombre');
+    const telefono = formData.get('telefono');
+    const email = formData.get('email');
+    const mensaje = formData.get('mensaje');
+    
+    const mailtoLink = `mailto:contacto@pka.cl?subject=Solicitud de Cotización&body=Nombre/Empresa: ${nombre}%0D%0ATeléfono: ${telefono}%0D%0AEmail: ${email}%0D%0A%0D%0AMensaje:%0D%0A${mensaje}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <>
       {/* Nuestras Instalaciones Section */}
@@ -120,32 +132,42 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-white text-2xl">Solicitar Cotización</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <CardContent>
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <Input 
+                      name="nombre"
+                      placeholder="Nombre / Empresa" 
+                      required
+                      className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
+                    />
+                    <Input 
+                      name="telefono"
+                      placeholder="Teléfono" 
+                      type="tel"
+                      required
+                      className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
+                    />
+                  </div>
                   <Input 
-                    placeholder="Nombre / Empresa" 
+                    name="email"
+                    placeholder="Email" 
+                    type="email"
+                    required
                     className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
                   />
-                  <Input 
-                    placeholder="Teléfono" 
-                    type="tel"
-                    className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
+                  <Textarea 
+                    name="mensaje"
+                    placeholder="Cuéntanos qué productos necesitas (alimentos, aseo, oficina)..." 
+                    rows={4}
+                    required
+                    className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400 resize-none"
                   />
-                </div>
-                <Input 
-                  placeholder="Email" 
-                  type="email"
-                  className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
-                />
-                <Textarea 
-                  placeholder="Cuéntanos qué productos necesitas (alimentos, aseo, oficina)..." 
-                  rows={4}
-                  className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400 resize-none"
-                />
-                <Button className="w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
-                  Enviar Solicitud
-                  <Send className="ml-2 w-4 h-4" />
-                </Button>
+                  <Button type="submit" className="w-full bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white font-semibold py-3 rounded-lg transition-all duration-300 transform hover:scale-105">
+                    Enviar Solicitud
+                    <Send className="ml-2 w-4 h-4" />
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </div>

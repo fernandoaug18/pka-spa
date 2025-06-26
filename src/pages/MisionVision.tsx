@@ -1,3 +1,6 @@
+import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const MisionVision = () => {
   return (
@@ -32,6 +35,15 @@ const MisionVision = () => {
               Ser una empresa reconocida a nivel nacional por su excelencia en servicio, confiabilidad y capacidad de respuesta, posicionándonos como líderes en el suministro integral para instituciones y consumidores individuales.
             </p>
           </div>
+        </div>
+        
+        <div className="text-center mt-12">
+          <Link to="/">
+            <Button className="bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white">
+              <ArrowLeft className="mr-2 w-4 h-4" />
+              Volver al Inicio
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

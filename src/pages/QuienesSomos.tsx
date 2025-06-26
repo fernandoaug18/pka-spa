@@ -1,4 +1,8 @@
 
+import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+
 const QuienesSomos = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-violet-50">
@@ -17,6 +21,15 @@ const QuienesSomos = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               En Peka SPA, nos dedicamos a la venta de alimentos, productos de aseo y artículos de escritorio, entregando soluciones prácticas y confiables tanto a organismos públicos como a clientes particulares en todo Chile. Nuestro compromiso es ser un socio estratégico que responda con eficiencia, cercanía y calidad.
             </p>
+          </div>
+          
+          <div className="text-center mt-8">
+            <Link to="/">
+              <Button className="bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white">
+                <ArrowLeft className="mr-2 w-4 h-4" />
+                Volver al Inicio
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
