@@ -1,5 +1,5 @@
 
-import { Heart, Package, Instagram, Facebook, Twitter } from "lucide-react";
+import { Heart, Package } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -15,17 +15,6 @@ const Footer = () => {
               Tu socio estratégico en suministros. Ofrecemos soluciones prácticas y confiables 
               para organismos públicos y clientes particulares en todo Chile.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 transition-colors duration-300">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 transition-colors duration-300">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-700 transition-colors duration-300">
-                <Twitter className="w-5 h-5" />
-              </a>
-            </div>
           </div>
           
           <div>
@@ -42,9 +31,6 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li><a href="#" className="hover:text-white transition-colors duration-300">Quiénes Somos</a></li>
               <li><Link to="/mision-vision" className="hover:text-white transition-colors duration-300">Misión y Visión</Link></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Licitaciones</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Términos y Condiciones</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Contacto</a></li>
             </ul>
           </div>
         </div>
