@@ -1,38 +1,38 @@
 
-import { Sparkles, Heart, Users, Clock, Leaf, Award } from "lucide-react";
+import { Package, Shield, Users, Clock, Truck, Award } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Features = () => {
   const features = [
     {
-      icon: Sparkles,
-      title: "Tratamientos Premium",
-      description: "Servicios de spa de lujo con productos naturales y técnicas especializadas."
+      icon: Package,
+      title: "Productos de Calidad",
+      description: "Alimentos, artículos de aseo y material de oficina con los más altos estándares."
     },
     {
-      icon: Heart,
-      title: "Bienestar Integral",
-      description: "Cuidamos tu bienestar físico, mental y emocional en cada sesión."
+      icon: Shield,
+      title: "Transparencia Total",
+      description: "Operamos de forma clara y ética en todos nuestros procesos comerciales."
     },
     {
       icon: Users,
-      title: "Terapeutas Expertos",
-      description: "Equipo profesional certificado con años de experiencia en wellness."
+      title: "Atención Personalizada",
+      description: "Escuchamos las necesidades reales de cada cliente con cercanía y profesionalismo."
     },
     {
       icon: Clock,
-      title: "Horarios Flexibles",
-      description: "Abierto todos los días con citas disponibles en horarios convenientes."
+      title: "Entregas Oportunas",
+      description: "Cumplimos con responsabilidad los tiempos acordados en cada pedido."
     },
     {
-      icon: Leaf,
-      title: "Productos Naturales",
-      description: "Utilizamos solo productos orgánicos y naturales para tu cuidado."
+      icon: Truck,
+      title: "Cobertura Nacional",
+      description: "Atendemos organismos públicos y clientes particulares en todo Chile."
     },
     {
       icon: Award,
-      title: "Excelencia Reconocida",
-      description: "Premiados por nuestra calidad y servicio excepcional en la industria."
+      title: "Compromiso Garantizado",
+      description: "Entregamos lo prometido, siendo tu socio estratégico confiable."
     }
   ];
 
@@ -44,8 +44,8 @@ const Features = () => {
             ¿Por Qué Elegir Peka SPA?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Combinamos tradición, innovación y cuidado personalizado para ofrecerte 
-            una experiencia de spa única que transforma tu bienestar.
+            Somos tu socio estratégico que responde con eficiencia, cercanía y calidad, 
+            mejorando tu experiencia de compra con soluciones prácticas y confiables.
           </p>
         </div>
         

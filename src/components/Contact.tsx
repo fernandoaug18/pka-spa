@@ -11,11 +11,11 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            ¿Listo para Relajarte?
+            ¿Necesitas Nuestros Productos?
           </h2>
           <p className="text-xl text-purple-100 max-w-3xl mx-auto">
-            Reserva tu cita y déjanos cuidar de tu bienestar. Estamos aquí para 
-            brindarte la experiencia de spa que mereces.
+            Solicita tu cotización y déjanos ser tu socio estratégico. Atendemos tanto 
+            organismos públicos como clientes particulares en todo Chile.
           </p>
         </div>
         
@@ -30,7 +30,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-purple-100">info@pekaspa.com</p>
+                    <p className="text-purple-100">ventas@pekaspa.com</p>
                   </div>
                 </div>
                 
@@ -40,7 +40,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold">Teléfono</h4>
-                    <p className="text-purple-100">+1 (555) SPA-PEKA</p>
+                    <p className="text-purple-100">+56 9 XXXX XXXX</p>
                   </div>
                 </div>
                 
@@ -49,8 +49,8 @@ const Contact = () => {
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
-                    <h4 className="font-semibold">Dirección</h4>
-                    <p className="text-purple-100">456 Wellness Ave, Zona Relax, Ciudad</p>
+                    <h4 className="font-semibold">Cobertura</h4>
+                    <p className="text-purple-100">Todo Chile - Entregas Seguras</p>
                   </div>
                 </div>
               </div>
@@ -59,12 +59,12 @@ const Contact = () => {
           
           <Card className="bg-white/10 backdrop-blur-lg border-white/20 shadow-2xl">
             <CardHeader>
-              <CardTitle className="text-white text-2xl">Reserva tu Cita</CardTitle>
+              <CardTitle className="text-white text-2xl">Solicitar Cotización</CardTitle>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Input 
-                  placeholder="Nombre" 
+                  placeholder="Nombre / Empresa" 
                   className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
                 />
                 <Input 
@@ -79,7 +79,7 @@ const Contact = () => {
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400"
               />
               <Textarea 
-                placeholder="Cuéntanos qué servicio te interesa..." 
+                placeholder="Cuéntanos qué productos necesitas (alimentos, aseo, oficina)..." 
                 rows={4}
                 className="bg-white/10 border-white/20 text-white placeholder:text-white/70 focus:border-purple-400 resize-none"
               />

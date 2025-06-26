@@ -6,22 +6,22 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "María González",
-      role: "Cliente Regular",
-      content: "Peka SPA es mi refugio personal. Los masajes relajantes y la atención personalizada me han ayudado a encontrar el equilibrio perfecto entre trabajo y bienestar.",
+      role: "Directora de Compras - Municipalidad",
+      content: "Peka SPA ha sido fundamental para nuestro municipio. Su puntualidad en las entregas y la calidad de los productos de aseo nos permite mantener nuestras instalaciones en óptimas condiciones.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Carlos Rodríguez",
-      role: "Ejecutivo",
-      content: "Después de sesiones estresantes de trabajo, vengo aquí a recargar energías. El ambiente tranquilo y los tratamientos faciales son excepcionales.",
+      role: "Gerente General - Empresa Privada",
+      content: "El suministro constante de artículos de oficina y la flexibilidad en los pedidos nos ha permitido optimizar nuestros procesos administrativos. Excelente servicio.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Ana Martínez",
-      role: "Madre de Familia",
-      content: "Mi día de spa mensual en Peka es sagrado. Los tratamientos corporales y la aromaterapia me devuelven la vitalidad que necesito.",
+      role: "Administradora - Hospital Público",
+      content: "La variedad de productos alimentarios y de limpieza que nos suministran es fundamental para el funcionamiento diario de nuestro hospital. Son muy confiables.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
     }
@@ -32,11 +32,11 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-            Experiencias de Nuestros Clientes
+            Testimonios de Nuestros Clientes
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            La satisfacción y bienestar de nuestros clientes es nuestra mayor recompensa. 
-            Descubre por qué eligen Peka SPA para su cuidado personal.
+            La confianza de organismos públicos y empresas privadas es nuestro mayor logro. 
+            Descubre por qué eligen Peka SPA como su proveedor estratégico.
           </p>
         </div>
         

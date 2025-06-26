@@ -36,17 +36,17 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Tu oasis de relajación y bienestar. Experimenta tratamientos únicos que revitalizan 
-            tu cuerpo, mente y espíritu en un ambiente de tranquilidad absoluta.
+            Tu socio estratégico en suministros. Ofrecemos alimentos, productos de aseo y artículos de 
+            escritorio con calidad, eficiencia y atención personalizada para todo Chile.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button size="lg" className="bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-              Reservar Cita
+              Solicitar Cotización
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button variant="outline" size="lg" className="border-2 border-purple-300 text-purple-700 px-8 py-4 rounded-full text-lg font-semibold hover:border-violet-400 hover:text-violet-600 transition-all duration-300">
-              Ver Servicios
+              Ver Productos
             </Button>
           </div>
         </div>
