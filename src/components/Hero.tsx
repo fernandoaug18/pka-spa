@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Logo */}
           <div className="mb-8">
             <img 
-              src="/lovable-uploads/9d4c7416-ed1a-4c92-9059-c756b5669039.png" 
+              src="/lovable-uploads/c51b76db-1499-4208-8f6e-d40ee42873a0.png" 
               alt="Peka SPA Logo" 
               className="mx-auto h-24 md:h-32 w-auto"
             />
