@@ -1,5 +1,5 @@
 
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -20,13 +20,6 @@ const Hero = () => {
               alt="Peka SPA Logo" 
               className="mx-auto h-24 md:h-32 w-auto"
             />
-          </div>
-
-          <div className="flex items-center justify-center space-x-1 mb-6">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-            ))}
-            <span className="ml-2 text-gray-600 font-medium">Calificación 5 estrellas</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-600 via-violet-600 to-purple-800 bg-clip-text text-transparent leading-tight">

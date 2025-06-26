@@ -30,11 +30,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Nuestros Productos</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Alimentos No Perecibles</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Productos de Aseo</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Artículos de Oficina</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Insumos Sanitarios</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Material Administrativo</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Alimentos</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Aseo y limpieza</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-300">Artículos de oficina</a></li>
             </ul>
           </div>
           
