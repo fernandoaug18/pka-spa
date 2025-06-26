@@ -29,7 +29,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Información</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors duration-300">Quiénes Somos</a></li>
+              <li><Link to="/quienes-somos" className="hover:text-white transition-colors duration-300">Quiénes Somos</Link></li>
               <li><Link to="/mision-vision" className="hover:text-white transition-colors duration-300">Misión y Visión</Link></li>
             </ul>
           </div>
