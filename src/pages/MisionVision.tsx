@@ -1,6 +1,4 @@
 
-import { Globe, Star } from "lucide-react";
-
 const MisionVision = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-violet-50">
@@ -18,9 +16,6 @@ const MisionVision = () => {
           {/* Misión */}
           <div className="bg-white rounded-2xl shadow-xl p-8 border-l-4 border-purple-500">
             <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-violet-600 rounded-full flex items-center justify-center mr-4">
-                <Globe className="w-6 h-6 text-white" />
-              </div>
               <h2 className="text-3xl font-bold text-gray-900">🌍 Misión</h2>
             </div>
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -31,9 +26,6 @@ const MisionVision = () => {
           {/* Visión */}
           <div className="bg-white rounded-2xl shadow-xl p-8 border-l-4 border-violet-500">
             <div className="flex items-center mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-600 rounded-full flex items-center justify-center mr-4">
-                <Star className="w-6 h-6 text-white" />
-              </div>
               <h2 className="text-3xl font-bold text-gray-900">🌟 Visión</h2>
             </div>
             <p className="text-lg text-gray-700 leading-relaxed">
